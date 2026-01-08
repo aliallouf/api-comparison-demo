@@ -24,8 +24,9 @@ api-comparison-demo/
 │   └── grpc-service/           # Binary Protobuf & high performance
 │       ├── bank.proto          # Protocol Buffer definition
 │       └── client.py           # Python client implementation
-└── README.md```
+└── README.md
 ---
+
 ## 📦 Use Case 1: E-commerce Customer Portal
 Objective:
 Populate a user dashboard containing profile information, the last two orders, and the latest review.
