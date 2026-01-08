@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Header>
+    <wsse:Security> </wsse:Security>
+  </soapenv:Header>
+  <soapenv:Body>
+    <GetAccountRequest>
+      <accountID>BANK-98765</accountID>
+    </GetAccountRequest>
+  </soapenv:Body>
+</soapenv:Envelope>

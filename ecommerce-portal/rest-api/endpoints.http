@@ -1,0 +1,11 @@
+### Request 1: Fetching User Profile Details
+GET /api/users/123 HTTP/1.1
+Accept: application/json
+
+### Request 2: Fetching Recent Orders
+GET /api/users/123/orders?limit=2 HTTP/1.1
+Accept: application/json
+
+### Request 3: Fetching the Latest Review
+GET /api/users/123/reviews/latest HTTP/1.1
+Accept: application/json

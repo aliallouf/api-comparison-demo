@@ -1,0 +1,14 @@
+{
+  user(id: "123") {
+    name
+    email
+    orders(limit: 2) {
+      id
+      total
+    }
+    latestReview {
+      productName
+      rating
+    }
+  }
+}

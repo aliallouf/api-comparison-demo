@@ -1,0 +1,7 @@
+<message name="GetAccountRequest">
+  <part name="accountID" type="xsd:string"/>
+</message>
+<message name="GetAccountResponse">
+  <part name="balance" type="xsd:decimal"/>
+  <part name="status" type="xsd:string"/>
+</message>

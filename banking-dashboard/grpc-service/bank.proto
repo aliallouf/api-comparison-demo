@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+service BankService {
+  rpc GetDashboard (AccountRequest) returns (DashboardResponse);
+}
+
+message AccountRequest {
+  string account_id = 1;
+}
+
+message DashboardResponse {
+  double balance = 1;
+  string account_type = 2;
+  repeated Transaction transactions = 3;
+}
+
+message Transaction {
+  string id = 1;
+  double amount = 2;
+}

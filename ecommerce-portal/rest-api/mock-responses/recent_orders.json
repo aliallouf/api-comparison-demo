@@ -1,0 +1,4 @@
+[
+  { "id": "01", "total": 45.99, "status": "shipped" },
+  { "id": "02", "total": 23.50, "status": "processing" }
+]

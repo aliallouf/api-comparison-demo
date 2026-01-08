@@ -1,0 +1,16 @@
+{
+  "data": {
+    "user": {
+      "name": "Jamal Postmanaut",
+      "email": "jamal@example.com",
+      "orders": [
+        { "id": "01", "total": 45.99 },
+        { "id": "02", "total": 23.50 }
+      ],
+      "latestReview": {
+        "productName": "Laptop",
+        "rating": 5
+      }
+    }
+  }
+}
