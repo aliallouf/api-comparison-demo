@@ -1,6 +1,6 @@
 # Modern API Architectures: A Comparative Analysis
 
-[cite_start]This repository contains implementation examples for two primary use cases, demonstrating the technical trade-offs between **SOAP, REST, gRPC, and GraphQL**.
+This repository contains implementation examples for two primary use cases, demonstrating the technical trade-offs between **SOAP, REST, gRPC, and GraphQL**.
 
 ---
 
@@ -25,7 +25,8 @@ api-comparison-demo/
 │       ├── bank.proto          # Protocol Buffer definition
 │       └── client.py           # Python client implementation
 └── README.md
-📦 Use Case 1: E-commerce Customer Portal
+---
+## 📦 Use Case 1: E-commerce Customer Portal
 Objective:
 Populate a user dashboard containing profile information, the last two orders, and the latest review.
 
